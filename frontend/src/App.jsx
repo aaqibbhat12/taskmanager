@@ -12,6 +12,8 @@ const App = () => {
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
 
+  //here fixed the build issue with the file for git
+
   // Fetch tasks
   const fetchTasks = async () => {
     try {
