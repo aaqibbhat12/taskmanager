@@ -11,10 +11,7 @@ const App = () => {
   const [tasks, setTasks] = useState([]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
-
-
-  //the file is giving the errors for build 
-
+//renamed the files for the build changes 
   // Fetch tasks
   const fetchTasks = async () => {
     try {

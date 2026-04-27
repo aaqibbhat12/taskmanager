@@ -2,6 +2,7 @@ const TaskItem = ({ task, onDelete, onToggle }) => {
   return (
     <div className="flex items-center justify-between bg-slate-800 p-3 rounded-lg">
       
+      {/* with this change it may work */}
       <div className="flex items-center gap-3">
         <input
           type="checkbox"
