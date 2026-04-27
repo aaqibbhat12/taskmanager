@@ -5,7 +5,7 @@ import {
   deleteTask,
   toggleTask,
 } from "./services/taskServices.js";
-import TaskItem from "./components/TaskItem";
+import TaskItem from "./components/TaskItem.jsx";
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
